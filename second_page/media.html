@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="./css/media.css" />
+  <head>
+    <title>Self-Presentation</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../first_page/index.html">Home</a></li>
+          <li><a href="table.html">Courses</a></li>
+          <li><a href="media.html">Self-Presentation</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Self-Presentation</h1>
+
+      <!-- Picture element -->
+      <section class="picture-container">
+        <picture>
+          <source media="(max-width: 750px)" srcset="../assets/bjsoft.png" />
+          <source media="(max-width: 1500px)" srcset="../assets/bjsoft.png" />
+          <source media="(min-width: 2500px)" srcset="../assets/bjsoft.png" />
+          <img src="../assets/bjsoft.png" alt="My Journey Image" />
+        </picture>
+        <p class="my-sef">This image Can Be You 🫵</p>
+      </section>
+
+      <!-- Audio element -->
+      <section id="audio" class="audio-container">
+        <audio controls>
+          <source
+            src="../assets/Bethel_Music_-_Goodness_of_God.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+        <p>This is a Music</p>
+      </section>
+
+      <!-- Video element -->
+      <section id="video" class="video-container">
+        <video controls autoplay muted>
+          <source
+            src="../assets/Ayo Maff & Fireboy DML - DEALER ACOUSTIC.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <p>This a Video</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2022 My Website</p>
+    </footer>
+  </body>
+</html>
